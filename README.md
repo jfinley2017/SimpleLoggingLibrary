@@ -12,9 +12,14 @@ A collection of native logging macros and blueprint utilities surrounding loggin
 
 # 1.) Enabling the plugin
 - Clone this repo.
-- Move ```SimpleLoggingToolsPlugin/``` into ```{PathToYourGame}/{YourGame}/Plugins/```.
-- Open your project enable the plugin in Edit->Plugins. The plugin should appear under "Project->Other".
+- Move the contained directory ```SimpleLoggingToolsPlugin/``` into ```{PathToYourGame}/{YourGame}/Plugins/```.
+- Open your project and enable the plugin in Edit->Plugins. The plugin should appear under "Project->Other".
+- Add ```SimpleLoggingToolsPlugin``` to ```PublicDepencendcyModuleNames``` in your Project.build.cs file.
+- Add ```SimpleLoggingToolsPlugin``` to ```PublicIncludePathModuleNames``` in your Project.build.cs file.
 
+<p align=center>
+  <img src = "https://cdn.discordapp.com/attachments/381955162387906572/730439374717583390/unknown.png"/>
+</p>
 
 #  2.) Documentation.
 All logging macros can be found in ```Source/Public/SimpleLoggingLibrary.h``` with documentation. Blueprint utilities can be found in ```Source/SimpleLoggingBlueprintLibrary.h``` with documentation.
